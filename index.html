@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>FCC Project: Wikipedia Viewer</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <!--
+Project Details:
+
+	- Developed for the freeCodeCamp - Intermediate Front End Development Projects: Wikipedia Viewer
+	- FCC Map: https://www.freecodecamp.com/challenges/build-a-wikipedia-viewer
+
+	Objective: Build a CodePen.io app that is functionally similar to this: http://codepen.io/FreeCodeCamp/full/pgNRvJ.
+	
+Rule #1: Don't look at the example project's code. Figure it out for yourself.
+	Rule #2: Fulfill the below user stories. Use whichever libraries or APIs you need. Give it your own personal style.
+
+	User Stories:
+		- User Story:  I can search Wikipedia entries in a search box and see the resulting Wikipedia entries. 
+		- User Story:  I can click a button to see a random Wikipedia entry.
+
+	Hint #1: Here's a URL you can use to get a random Wikipedia article: 
+         http://en.wikipedia.org/wiki/Special:Random
+
+Hint #2: Here's an entry on using Wikipedia's API:
+         http://www.mediawiki.org/wiki/API:Main_page
+
+Hint #3: Use this link to experiment with Wikipedia's API.
+         https://en.wikipedia.org/wiki/Special:ApiSandbox#action=query&titles=Main%20Page&prop=revisions&rvprop=content&format=jsonfm
+--------------------------------------------------------------------------------
+
+Assignment Began:     v1.0 3/25/2016:
+Assignment Completed: v1.0 4/6/2016:
+
+--------------------------------------------------------------------------------
+
+-->
+
+<div class="container">
+  
+  <a href="https://en.wikipedia.org/wiki/Main_Page" target="blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png" alt="Wikipedia Logo" /></a>
+
+  <h2 id="viewer">WikipediA Viewer</h2>
+
+  <hr class="separator">
+
+  <form id="form">
+    <input type="text" id="search" placeholder=" Search for...">
+  </form>
+
+  <div class="results-box">
+  </div><!-- results-box -->
+
+  <div class="random-box">
+    <a id="random-text" href="http://en.wikipedia.org/wiki/Special:Random" target="blank">
+      Click to see a random article from WikipediA</br><i class="fa fa-random fa-2x"></i></a>
+  </div><!-- random-box -->
+
+</div><!-- container -->
+
+
+<div class="container footer navbar-fixed-bottom">
+  
+  <div class="footer-text">2016 - Written and coded by <em>Tony Morris</em> for the <a href="https://www.freecodecamp.com" target="blank">freeCodeCamp</a> Intermediate Front-end Development Challenge: <a href="https://www.freecodecamp.com/challenges/build-a-wikipedia-viewer" target="blank"> Wikipedia Viewer</a>
+  </div><!-- footer-text -->
+  
+  <div class="footer-icons row">
+    <a href="https://twitter.com/tonymorristm" target="blank"><i class="fa fa-twitter"></i></a>
+    <a href="https://github.com/tonymorristm" target="blank"><i class="fa fa-github"></i></a>
+    <a href="http://freecodecamp.com/tonymorristm" target="blank"><i class="fa fa-fire"></i></a>
+  </div><!-- footer-icons row -->
+
+</div><!-- container footer-navbar-fixed-bottom -->
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
